@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--CorHeader);
+    font-size: 30px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid var(--CorBorder)
+}
+
+.info{
+    margin: 5px;
+}
+
+body{
+    background-color: var(--CorFundo);
+}
+
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 89vh;
+}
+
+#linhas{
+    background-color: var(--CorLinhas);
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#linhas > p{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+#linhas > p:hover{
+    scale: 1.2;
+}
+
+#mapa{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-image: url(ElectroHits\ -\ Trem.png);
+    background-position: center center;
+    background-size: cover;
+}
