@@ -8,37 +8,46 @@
     <link rel="stylesheet" href="estilos/azul.css">
 </head>
 <body>
-    <header>
+    <header id="head">
         <div class="info">
            🤖ElectroHits
         </div>
         <div class="info">
             São Paulo
         </div>
-        <div class="info">
+        <div class="info" id="relogio">
             XX:XX
         </div>
         </section>
     </header>
     <main>
         <section id="linhas">
-            <p id="azul">Azul</p>
-            <p>Verde</p>
-            <p>Vermelha</p>
-            <p>Amarela</p>
-            <p>Lilás</p>
-            <p>Rubi</p>
-            <p>Diamante</p>
-            <p>Esmeralda</p>
-            <p>Turquesa</p>
-            <p>Coral</p>
-            <p>Safira</p>
-            <p>Jade</p>
-            <p>Prata</p>
+            <div class="linha" id="start" onclick="start()"><p>início</p></div>
+            <div class="linha" id="azul" onclick="azul()"><p>Azul</p></div>
+            <div class="linha" id="verde" onclick="verde()"><p>Verde</p></div>
+            <div class="linha" id="vermelho" onclick="vermelho()"><p>Vermelha</p></div>
+            <div class="linha" id="amarelo" onclick="amarelo()"><p>Amarela</p></div>
+            <div class="linha" id="lilas" onclick="lilas()"><p>Lilás</p></div>
+            <div class="linha" id="laranja" onclick="laranja()"><p>Laranja</p></div>
+            <div class="linha" id="rubi" onclick="rubi()"><p>Rubi</p></div>
+            <div class="linha" id="diamante" onclick="diamante()"><p>Diamante</p></div>
+            <div class="linha" id="esmeralda" onclick="esmeralda()"><p>Esmerlda</p></div>
+            <div class="linha" id="turquesa" onclick="turquesa()"><p>Turquesa</p></div>
+            <div class="linha" id="coral" onclick="coral()"><p>Coral</p></div>
+            <div class="linha" id="safira" onclick="safira()"><p>Safira</p></div>
+            <div class="linha" id="jade" onclick="jade()"><p>Jade</p></div>
+            <div class="linha" id="prata" onclick="prata()"><p>Prata</p></div>
+            <div class="linha" id="ouro" onclick="ouro()"><p>Ouro</p></div>
+            <div class="linha" id="bronze" onclick="bronze()"><p>Bronze</p></div>
         </section>
         <section id="mapa">
-            
+
         </section>
+        <section id="escolha">
+            Escolha uma linha ao lado para ver seu mapeamento
+        </section>
+
+        <script src="script.js"></script>
     </main>
 </body>
 </html>

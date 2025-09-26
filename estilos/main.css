@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --CorFundo: #D9D9D9;
+    --CorHeader: #FFF;
+    --CorLinhas: #ED1B24;
+    --CorChoosen: #0521596e;
+    --CorBorder: #986567;
 }
 
 header{
     background-color: var(--CorHeader);
     font-size: 30px;
-    height: 80px;
+    height: 11vh;
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
@@ -17,7 +27,7 @@ header{
     align-content: space-evenly;
     padding-left: 20px;
     padding-right: 20px;
-    border-bottom: 1px solid var(--CorBorder);
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.277);
 }
 
 .info{
@@ -26,36 +36,61 @@ header{
 
 body{
     background-color: var(--CorFundo);
+    height: 89vh;
 }
 
 main{
     display: flex;
     flex-flow: row nowrap;
-    height: 89vh;
+    height: 100%;
 }
 
 #linhas{
     background-color: var(--CorLinhas);
     font-size: 20px;
     line-height: 40px;
+    width: 20vw;
+    max-width: 250px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.271);
+    overflow: auto;
+    overflow-x: hidden;
 }
 
-#linhas > p{
-    padding-left: 50px;
-    padding-right: 100px;
+::-webkit-scrollbar{
+    width: 15px;
 }
 
-#linhas > p:hover{
-    scale: 1.2;
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.linha{
+    width: 100%;
+    padding-left: 20%;
+    cursor: pointer;
+    color: white;
+}
+
+.linha > p:hover{
+    scale: 1.05;
     transition: 0.3s;
 }
 
 #mapa{
-    border: 1px solid black;
-    width: 500px;
+    width: 50%;
     height: 500px;
+    margin: 20px;
     margin: auto;
     background-image: url(ElectroHits\ -\ Trem.png);
     background-position: center center;
     background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.203);
+}
+
+#escolha {
+    margin: auto;
+    font-size: 1.2em;
+    padding: 20px;
+    color: rgb(67, 67, 67);
 }
