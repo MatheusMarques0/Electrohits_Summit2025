@@ -64,6 +64,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img1.png')"
             }
 
             function verde(){
@@ -89,6 +92,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img2.jpg')"
             }
 
             function vermelho(){
@@ -114,6 +120,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img3.png')"
             }
 
             function amarelo(){
@@ -139,6 +148,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img4.png')"
             }
             
             function lilas(){
@@ -164,6 +176,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img5.png')"
             }
 
             function laranja(){
@@ -190,6 +205,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img6.jpg')"
             }
 
             function rubi(){
@@ -215,6 +233,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img8.jpg')"
             }
 
             function diamante(){
@@ -242,6 +263,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img9.jpg')"
             }
 
             function esmeralda(){
@@ -268,6 +292,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img10.jpg')"
             }
 
             function turquesa(){
@@ -294,6 +321,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img11.jpg')"
             }
 
             function coral(){
@@ -320,6 +350,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img12.jpg')"
             }
 
             function safira(){
@@ -346,6 +379,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img13.jpg')"
             }
 
             function jade(){
@@ -372,6 +408,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img15.jpg')"
             }
 
             function prata(){
@@ -397,6 +436,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img16.png')"
             }
 
             function ouro(){
@@ -422,6 +464,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+                
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img17.png')"
             }
 
             function bronze(){
@@ -447,6 +492,9 @@
 
                 let text = document.getElementById("escolha")
                 escolha.style.display = 'none'
+
+                let map = document.getElementById("mapa")
+                map.style.backgroundImage = "url('../imagens/img18.png')"
             }
 
 function atualizarRelogio() {
