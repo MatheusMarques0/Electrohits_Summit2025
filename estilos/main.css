@@ -93,3 +93,7 @@ main{
     padding: 20px;
     color: rgb(67, 67, 67);
 }
+
+#mostrar, #esconder{
+    display: none;
+}

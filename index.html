@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Summit III</title>
     <link rel="stylesheet" href="estilos/main.css">
-    <link rel="stylesheet" href="estilos/azul.css">
+    <link rel="stylesheet" href="estilos/mobile.css">
 </head>
 <body>
     <header id="head">
@@ -21,6 +21,8 @@
         </section>
     </header>
     <main>
+        <div class="linha" id="mostrar" onclick="mostrar()"><p>Ver linhas</p></div>
+        <div class="linha" id="esconder" onclick="esconder()"><p>Ver mapa</p></div>
         <section id="linhas">
             <div class="linha" id="start" onclick="start()"><p>início</p></div>
             <div class="linha" id="azul" onclick="azul()"><p>Azul</p></div>
@@ -41,7 +43,7 @@
             <div class="linha" id="bronze" onclick="bronze()"><p>Bronze</p></div>
         </section>
         <section id="mapa">
-
+            
         </section>
         <section id="escolha">
             Escolha uma linha ao lado para ver seu mapeamento

@@ -1,0 +1,61 @@
+@media screen and (max-width:700px) {
+    body{
+        height: auto;
+    }
+    main{
+        display: block;
+    }
+
+    header{
+        font-size: 5vw;
+    }
+
+    #linhas{
+        width: 100%;
+        text-align: center;
+        max-width: 700px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        display: none;
+    }
+
+    .linha{
+        padding-left: 0%;
+    }
+
+    #mapa{
+        width: 70%;
+        height: 80vh;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    #escolha{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    #mostrar{
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        line-height: 40px;
+        background-color: rgba(0, 0, 0, 0.288);
+    }
+
+    #esconder{
+        font-size: 20px;
+        text-align: center;
+        line-height: 40px;
+        background-color: rgba(0, 0, 0, 0.288);
+    }
+
+    #relogio{
+        display: none;
+    }
+
+    #start{
+        display: none;
+    }
+}

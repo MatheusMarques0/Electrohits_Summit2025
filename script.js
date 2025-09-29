@@ -509,3 +509,44 @@ function atualizarRelogio() {
     // Atualiza a cada 1 segundo
     setInterval(atualizarRelogio, 1000);
     atualizarRelogio();
+
+    // mostrar linhas no mobile
+
+    function mostrar(){
+        let show = document.getElementById("linhas")
+        show.style.display = "block"
+        let hide = document.getElementById("mostrar")
+        hide.style.display = "none"
+        let appear = document.getElementById("esconder")
+        appear.style.display = "block"
+    }
+
+    function esconder(){
+        let hide = document.getElementById("linhas")
+        hide.style.display = "none"
+        let show = document.getElementById("mostrar")
+        show.style.display = "block"
+        let appear = document.getElementById("esconder")
+        appear.style.display = "none"
+    }
+    
+
+    function verificarTela() {
+  if (window.innerWidth > 700) {
+    // No desktop: sempre mostra as linhas, esconde os botões
+    document.getElementById("linhas").style.display = "block";
+    document.getElementById("mostrar").style.display = "none";
+    document.getElementById("esconder").style.display = "none";
+  } else {
+    // No mobile: aplica o estado inicial (menu escondido)
+    document.getElementById("linhas").style.display = "none";
+    document.getElementById("mostrar").style.display = "block";
+    document.getElementById("esconder").style.display = "none";
+  }
+}
+
+// roda quando a página abre
+verificarTela();
+
+// roda sempre que redimensionar a janela
+window.addEventListener("resize", verificarTela);
